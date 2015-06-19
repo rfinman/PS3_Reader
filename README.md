@@ -2,7 +2,7 @@
 
 Repositories list is probably not complete
 
-sudo apt-get install sixad libgtkmm-2.4-dev libsigc++-2.0-dev
+    sudo apt-get install sixad libgtkmm-2.4-dev libsigc++-2.0-dev
 
 To compile
 
@@ -15,3 +15,9 @@ JoystickController.cpp is the controlling class
 
 axisCallback function in Joystick controller is the way to update any 
 variables. Mutexs may be required
+
+To run, start with
+    sixad --start
+    ./build/main
+
+Works via bluetooth and USB
